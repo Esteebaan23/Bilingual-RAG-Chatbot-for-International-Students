@@ -16,17 +16,17 @@ This project implements a **Retrieval-Augmented Generation (RAG)** chatbot desig
 
 ```bash
 ┌────────────┐      ┌─────────────────────┐      ┌────────────────────────┐
-│  User Q&A  │ ──▶  │  Sentence-BERT Embed│ ──▶  │  FAISS Vector Search   │
+│  User Q&A  │ ──▶  │  Sentence-BERT Embed│ ──▶ │  FAISS Vector Search   │
 └────────────┘      └─────────────────────┘      └────────────────────────┘
                                                            │
                                                            ▼
                                        ┌────────────────────────────────┐
-                                       │ Retrieved Context + User Query│
+                                       │ Retrieved Context + User Query │
                                        └────────────────────────────────┘
                                                            │
                                                            ▼
                                  ┌─────────────────────────────────────────┐
-                                 │   LLaMA 2 + LoRA Adapter (Quantized)   │
+                                 │   LLaMA 2 + LoRA Adapter (Quantized)    │
                                  └─────────────────────────────────────────┘
                                                            │
                                                            ▼
