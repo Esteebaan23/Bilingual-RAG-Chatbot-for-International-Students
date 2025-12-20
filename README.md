@@ -16,7 +16,7 @@ This project implements a **Retrieval-Augmented Generation (RAG)** chatbot desig
 
 ```bash
 ┌────────────┐      ┌─────────────────────┐      ┌────────────────────────┐
-│  User Q&A  │ ──▶  │  Sentence-BERT Embed│ ──▶ │  FAISS Vector Search   │
+│  User Q&A  │ ──▶ │  Sentence-BERT Embed │ ──▶ │  FAISS Vector Search   │
 └────────────┘      └─────────────────────┘      └────────────────────────┘
                                                            │
                                                            ▼
