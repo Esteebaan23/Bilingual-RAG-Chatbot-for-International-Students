@@ -8,7 +8,7 @@ This project implements a **Retrieval-Augmented Generation (RAG)** chatbot desig
 - 🧠 **RAG-style prompting**: context + question → answer
 - 🤖 **Fine-tuned LLaMA 2 with LoRA adapters** for low-cost, domain-specific generation
 - 📉 **Reduced time-to-answer**: students no longer need to jump between 10+ government/academic pages
-- 🧪 Interactive testing environment via script or Gradio interface (optional)
+
 
 ---
 
